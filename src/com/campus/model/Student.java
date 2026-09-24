@@ -32,7 +32,7 @@ public class Student {
         return studentid;
     }
 
-    public int getStudentname() {
+    public String getStudentname() {
         return studentname;
     }
 
@@ -40,11 +40,11 @@ public class Student {
         return age;
     }
 
-    public int getDepartment() {
+    public String getDepartment() {
         return department;
     }
 
-    public int getMarks() {
+    public int[] getMarks() {
         return marks;
     }
 
@@ -53,7 +53,7 @@ public class Student {
         this.studentid = studentid;
     }
 
-    public void setStudentname(int studentname) {
+    public void setStudentname(String studentname) {
         this.studentname = studentname;
     }
 
@@ -61,11 +61,11 @@ public class Student {
         this.age = age;
     }
 
-    public void setDepartment(int department) {
+    public void setDepartment(String department) {
         this.department = department;
     }
 
-    public void setMarks(int marks) {
+    public void setMarks(int[] marks) {
         this.marks = marks;
     }
     //instance methods - belongs to object

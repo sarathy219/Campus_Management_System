@@ -93,8 +93,8 @@ public class StudentService {
     }
     //display report card
     public void displayReportCard(Student student) {
-        System.out.println("Student Name: " + student.getStudentName());
-        System.out.println("Student ID: " + student.getStudentId());
+        System.out.println("Student Name: " + student.getStudentname());
+        System.out.println("Student ID: " + student.getStudentid());
         System.out.println("Department: " + student.getDepartment());
         System.out.println("Total Marks: " + calculateTotalMarks(student));
         System.out.println("Average Marks: " + calculateAverageMarks(student));
