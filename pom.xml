@@ -42,6 +42,12 @@
 
         </dependency>
 
+        <dependency>
+            <groupId>org.postresql</groupId>
+            <artifactId>postresql</artifactId>
+            <version>42.7.8</version>
+        </dependency>
+
     </dependencies>
 
     <build>
