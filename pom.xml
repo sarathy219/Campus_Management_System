@@ -42,9 +42,10 @@
 
         </dependency>
 
+        <!-- postgresql jdbc driver -->
         <dependency>
-            <groupId>org.postresql</groupId>
-            <artifactId>postresql</artifactId>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
             <version>42.7.8</version>
         </dependency>
 
@@ -84,6 +85,7 @@
                 <artifactId>jetty-ee10-maven-plugin</artifactId>
                 <version>12.0.14</version>
                 <configuration>
+                    <scan>1</scan>
                     <httpConnector>
                         <port>8080</port>
                     </httpConnector>
